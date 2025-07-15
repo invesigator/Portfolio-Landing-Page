@@ -77,95 +77,6 @@ A sleek, responsive portfolio website with a futuristic cyberpunk aesthetic feat
 - **CSS-only Animations** where possible
 - **Accessibility Support** with reduced motion preferences
 
-## 🛠️ Customization Guide
-
-### Personal Information
-
-Update the following in `index.html`:
-
-1. **Name and Title** (lines 42-45):
-
-```html
-<span class="name">Your Name</span> <span class="title">Your Job Title</span>
-```
-
-2. **Bio Content** (lines 67-70):
-
-```html
-<h3>Hello, I'm [Your Name]</h3>
-<p>Your bio content here...</p>
-```
-
-3. **Contact Information** (lines 286-294):
-
-```html
-<span>your.email@domain.com</span>
-<span>+1 (555) 123-4567</span>
-<span>Your City, State</span>
-```
-
-### Projects
-
-Modify the `projectData` object in `script.js` (lines 226-267) to add your own projects:
-
-```javascript
-'your-project': {
-  title: 'Your Project Title',
-  description: 'Detailed project description...',
-  image: 'path/to/your/image.jpg',
-  tech: ['React', 'Node.js', 'MongoDB'],
-  liveUrl: 'https://your-project.com',
-  githubUrl: 'https://github.com/you/project'
-}
-```
-
-### Skills
-
-Update skills in `index.html` (lines 222-261) and adjust the categories and percentages:
-
-```html
-<div class="skill-item" data-category="frontend">
-  <div class="skill-info">
-    <span class="skill-name">Your Skill</span>
-    <span class="skill-percentage">85%</span>
-  </div>
-  <div class="skill-bar">
-    <div class="skill-progress" data-width="85"></div>
-  </div>
-</div>
-```
-
-### Tech Stack
-
-Modify the tech grid in `index.html` (lines 84-115):
-
-```html
-<div class="tech-item" data-tech="YourTech">
-  <i class="fab fa-your-icon"></i>
-  <span>Your Technology</span>
-</div>
-```
-
-### Colors and Styling
-
-Customize the color scheme in `styles.css` by modifying the CSS variables (lines 2-20):
-
-```css
-:root {
-  --accent-primary: #your-primary-color;
-  --accent-secondary: #your-secondary-color;
-  --bg-primary: #your-background-color;
-  /* Add more customizations */
-}
-```
-
-### Images
-
-Replace the following images with your own:
-
-1. **Profile Photo**: Update the `src` attribute in the avatar img tag
-2. **Project Images**: Update image URLs in the `projectData` object
-3. **Favicon**: Add your own favicon.ico file
 
 ## 🔧 Technical Requirements
 
@@ -190,13 +101,7 @@ Replace the following images with your own:
 - ✅ Safari 12+
 - ✅ Edge 79+
 
-## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Feel free to fork this project and customize it for your own portfolio. If you make improvements that could benefit others, pull requests are welcome!
 
 ## 📧 Contact
 
