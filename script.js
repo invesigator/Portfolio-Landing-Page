@@ -272,6 +272,13 @@ class ProjectModalManager {
         image: 'asset/hms.jpg',
         tech: ['Java', 'Swing', 'MySQL', 'JDBC', 'Desktop Application'],
         githubUrl: 'https://github.com/invesigator/Hospital-Management-System'
+      },
+      'react-quiz': {
+        title: 'React Quiz App',
+        description: 'A dynamic quiz application built with React featuring real-time progress tracking, 30-second timer system, and comprehensive score tracking. The application includes multiple game states (loading, ready, active, finished) with responsive design that works seamlessly across different screen sizes. Built using modern React patterns with useReducer for state management and modular component architecture for maintainable code.',
+        image: 'asset/react-quiz.png',
+        tech: ['React', 'JavaScript', 'CSS3', 'JSON Server', 'ES6+'],
+        githubUrl: 'https://github.com/invesigator/react-project-quiz'
       }
     };
     
